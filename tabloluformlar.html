@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            background-color: rgba(114, 217, 255, 0.475);
+        }
+        td{
+            font-style:italic;
+        }
+        #gonder{
+            background-color:greenyellow;
+            font-size:25px;
+            padding:5px 15px;
+        }
+        #sil{
+            background-color:red;
+            font-size:25px;
+            padding:5px 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Üye Kayıt Formu</h1>
+    <form action="tabloluformlar.html" method="get">
+        <table border="1">
+            <tr><td>Ad Soyad:</td><td><input type="text" name=adsoyad id=adsoyad size="20" required></td></tr>
+            <tr><td>E-mail:</td><td><input type="email" name="email" id="email" size="20" required></td></tr>
+            <tr><td></td><td><input type="submit" value="Gönder" id="gonder" placeholder="Verileri tabloluformlar.html'e göndelir." > <input type="reset" value="Sil" id="sil"></td></tr>
+        </table>
+    </form>  
+</body>
+</html>
