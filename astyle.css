@@ -10,7 +10,7 @@ body{
     background: white;
     padding: 30px;
     width: 350px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 100px rgba(0,0,0,0.1);
     border-radius: 6px;
     text-align: center;
 }
@@ -42,7 +42,7 @@ body{
 }
 .input-group i{
     position: absolute;
-    right:10px;
+    right:0px;
     top:10px;
     color:#999;
 }
