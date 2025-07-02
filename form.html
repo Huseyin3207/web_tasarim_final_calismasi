@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_konusuna_giriş</title>
+</head>
+<body>
+    <h1>Kayıt Ol</h1>
+    <form name="kayit_formu" action="kayit.php" method="get">
+        Ad-Soyad:<input name="adsoyad" type="text" id="idadsoyad" size="20" maxlength="30" required >
+        <br>
+        E-mail:<input name="email" type="email" id="email" required>
+        <br> 
+        Web Sitesi:<input name="adres" type="url" id="adres">
+        <br>
+        Telefon Numarası:<input type="number" name="numara" id="numara">
+        <br>
+        <input type="submit" value="Tamam">
+        <input type="reset" value="Temizle"><br>
+        Resimi yükle:<br>
+        <input type="image" name="resim" id="resim">
+    </form>
+</body>
+</html>
