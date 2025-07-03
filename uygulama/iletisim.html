@@ -26,6 +26,15 @@
         <h2>Adres:</h2><p>İnönü Mah. 345/8 Sk. No:24/B</p><p>Hankapı/Ankara</p>
         <h2>Telefon</h2><p>+90 505 123 45 67</p>
         <h2>E-posta:</h2><p>huseyin.altuntas@example</p>
+        <hr>
+        <form action="mailto:huseyin.altuntas@example" method="post">
+            <table>
+                <tr><td colspan="2"><input type="text" name="adsoyad" placeholder="Ad Soyad yazın." required></td></tr>
+                <tr><td colspan="2"><input type="email" name="email" placeholder="E-posta yazın." required></td></tr>
+                <tr><td colspan="2"><textarea name="mesaj" placeholder="Mesajınızı yazın." cols="50px" rows="5" required></textarea></td></tr>
+                <tr><td><input type="submit" value="Gönder"></td><td><input type="reset" value="Temizle"></td></tr>
+            </table>
+        </form>
     </center>
 </body>
 </html>
