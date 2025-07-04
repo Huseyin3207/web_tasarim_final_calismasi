@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position alıştırması</title>
+    <style>
+        div{
+            border-style:solid;
+            border-color:rgb(186, 43, 110);
+            margin:0px;
+            padding:0px;
+        }
+        #big{
+            width:26px;
+            height:100px;
+            background-color:bisque;
+            position:fixed;
+            left: 86px;
+            top: 251px;
+            z-index: 1;
+            border-radius:100% 100% 0px 0px;
+            border-width:15px 5px 5px 5px;
+            border-color: rgb(186, 43, 110, 0.750) rgba(186, 43, 110, 0.500) rgba(255, 255, 255, 0.750) rgb(186, 43, 110, 0.500)
+        }
+        #small{
+            width:100px;
+            height:50px;
+            background-color:aquamarine;
+            position:fixed;
+            left: 102px;
+            top: 200px;
+            border-radius: 100% 0%;
+        }
+        #small2{
+            width:100px;
+            height:50px;
+            background-color:aquamarine;
+            position:fixed;
+            left: 0px;
+            top: 200px;
+            border-radius: 0% 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="big">
+       
+    </div>
+    <div id="small">
+        <div id="small2">
+
+        </div>
+    </div>
+</body>
+</html>
