@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse:separate;
+        }
+        th,td{
+            padding:0px;
+        }
+        input{
+            background-color:gray;
+            border-style:solid;
+            border-color:black;
+        }
+        textarea{
+            background-color:gray;
+            border-color:black;
+            border-width:2px;
+        }
+        input[type="text"], input[type="email"]{
+            width:235px;
+        }
+        input[type="submit"]{
+            background-color:chartreuse;
+            font-weight:bold;
+        }
+        input[type="reset"]{
+            background-color:red;
+            font-weight:bold;
+        }
+        th{
+            text-align:left;
+            vertical-align:top;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+        <tr><th>Ad Soyad:</th><td><input type="text"><br></td></tr>
+        <tr><th>Email:</th><td><input type="email"><br></td></tr>
+        <tr><th>Mesaj:</th><td><textarea rows="5" cols="30"></textarea><br></td></tr>
+        <tr><td><input type="submit" value="Gönder"> <input type="reset" value="Sil"></td></tr>
+        </table>
+    </form>
+</body>
+</html>
